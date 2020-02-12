@@ -48,6 +48,7 @@ class MyHead extends React.Component {
                         <meta property="og:url" content={link} />
                         <meta property="og:type" content="article" />
 
+                        <link href="https://unpkg.com/octomments/build/ocs-ui.min.css" rel="stylesheet"></link>
                         <script type="application/ld+json">
                             {`
                                 '@context': "http://schema.org",
