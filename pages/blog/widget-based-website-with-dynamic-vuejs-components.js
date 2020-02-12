@@ -241,7 +241,7 @@ const Post = () => (
 
             <PrevNext postId={postId} isArticle={true} />
 
-            <Comments />
+            <Comments issueNumber={postId} />
         </ui.ArticleContainer>
     </Layout>
 )

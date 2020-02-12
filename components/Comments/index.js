@@ -8,7 +8,7 @@ class Comments extends React.Component {
                 owner: 'Vincenius',
                 repo: 'wwebdev',
             },
-            issueNumber: 1,
+            issueNumber: this.props.issueNumber,
             renderer: [(api, container) => {
                 console.log(container)
             }, '#comments']
