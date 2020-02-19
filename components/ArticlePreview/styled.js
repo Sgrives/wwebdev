@@ -1,8 +1,8 @@
 import styled, { css } from 'styled-components'
-import { lightGrey, greyBlue, darkGrey, lightBlue, breakpoint, breakpointSmall } from '../../ui/constants'
+import { subtleColor, subtleFontColor, highlightColor, breakpoint, breakpointSmall, highlightHoverColor, fontColor } from '../../ui/constants'
 
 export const Container = styled.article`
-    border-bottom: 1px solid ${lightGrey};
+    border-bottom: 1px solid ${subtleColor};
     margin-bottom: 3.2rem;
     padding-bottom: 3.2rem;
     display: flex;
@@ -17,11 +17,11 @@ export const Type = styled.span`
     line-height: 1.86667rem;
 
     ${props => props.highlight && css`
-        b { color: ${lightBlue}; }
+        b { color: ${highlightColor}; }
     `}
 `
 export const Time = styled.time`
-    color: ${greyBlue};
+    color: ${subtleFontColor};
     font-size: .82397rem;
     line-height: 1.86667rem;
     margin-bottom: 8px;
@@ -35,12 +35,12 @@ export const Headline = styled.h2`
     margin: 0 0 16px;
 
     a {
-        color: ${darkGrey};
+        color: ${fontColor};
         text-decoration: none;
         transition: all .12s ease;
 
         &:hover {
-            color: ${lightBlue};
+            color: ${highlightColor};
         }
     }
 `
@@ -50,10 +50,10 @@ export const ReadMore = styled.a`
     font-weight: 700;
     margin-top: calc(1.06667rem + .25vw);
     text-transform: uppercase;
-    color: ${lightBlue};
+    color: ${highlightColor};
 
     &:hover {
-        color: ${darkGrey};
+        color: ${highlightHoverColor};
         text-decoration: underline;
         cursor: pointer;
     }

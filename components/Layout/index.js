@@ -1,9 +1,9 @@
 import React from 'react'
 
-import "../../ui/global.css"
 import '../../ui/code-style/github.css';
 import { Head, Header, Footer } from '../'
 import * as S from './styled'
+import { GlobalStyle } from '../../ui/global.js'
 
 function Layout ({
     title,
@@ -19,6 +19,7 @@ function Layout ({
 
     return (
         <S.Container className="content">
+            <GlobalStyle />
             <Head
                 title={title}
                 link={link}
