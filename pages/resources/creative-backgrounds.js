@@ -78,6 +78,12 @@ const Post = () => (
                 image="/resources/creative-backgrounds/naker.png"
             />
             <LinkBox
+                title="CSS3 Patterns Gallery"
+                description="A cool list of patterns using only CSS, curated by Lea Verou."
+                link="https://leaverou.github.io/css3patterns/"
+                image="/resources/creative-backgrounds/css3patterns.png"
+            />
+            <LinkBox
                 title="Vanta.js"
                 description="Animated WebGL backgrounds with the possibility to customize."
                 link="https://www.vantajs.com/"

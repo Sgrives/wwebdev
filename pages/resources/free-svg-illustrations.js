@@ -59,6 +59,13 @@ const Post = () => (
             />
 
             <LinkBox
+                image="/resources/free-svg-illustrations/openpeeps.png"
+                title="Open Peeps"
+                link="https://www.openpeeps.com/"
+                description="A handdrawn illustration library mad of building blocks to create your own illustrations."
+            />
+
+            <LinkBox
                 image="/resources/free-svg-illustrations/humaaans.jpg"
                 title="Humaaans"
                 link="https://www.humaaans.com"
